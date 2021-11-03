@@ -50,13 +50,13 @@ The remaining items to upstream from multicore are highly interlocking and also 
 
 We propose a lead each from the multicore team and the OCaml dev team for each of the working groups who will shepherd the discussion. The proposed leads are:
 
-| Working Group               | Multicore Lead           | Dev Team Lead                         |
-| --------------------------- | ------------------------ |:------------------------------------- |
-| GC                          | Tom Kelly & Sadiq Jaffer | Damien Doligez                        |
-| Domains                     | Tom Kelly                | TBD                                   |
-| Runtime multi-domain safety | Enguerrand Decorne       | Xavier Leroy                          |
-| Stdlib changes              | KC Sivaramakrishnan      | Florian Angeletti (and Gabriel Scherer) |
-| Fibers                      | KC Sivaramakrishnan      | Damien Doligez (and Xavier Leroy)          |
+| Working Group               | Multicore Lead           | Dev Team Lead                            |
+| --------------------------- | ------------------------ |:---------------------------------------- |
+| GC                          | Tom Kelly & Sadiq Jaffer | Damien Doligez                           |
+| Domains                     | Tom Kelly                | Luc Maranget                             |
+| Runtime multi-domain safety | Enguerrand Decorne       | Xavier Leroy                             |
+| Stdlib changes              | KC Sivaramakrishnan      | Florian Angeletti (and Gabriel Scherer)  |
+| Fibers                      | KC Sivaramakrishnan      | Damien Doligez (and Xavier Leroy)        |
 
 GC is the biggest change and we anticipate Tom and Sadiq to take lead on different sub-items.
 
@@ -110,6 +110,6 @@ The next steps look like:
 
 ## References
 
-[1] Bounding Data Races in Space and Time https://dl.acm.org/doi/10.1145/3192366.3192421
-[2] Retrofitting Parallelism onto OCaml https://dl.acm.org/doi/10.1145/3408995
-[3] Retrofitting Effect Handlers onto OCaml https://dl.acm.org/doi/10.1145/3453483.3454039
+[1] Bounding Data Races in Space and Time https://dl.acm.org/doi/10.1145/3192366.3192421  
+[2] Retrofitting Parallelism onto OCaml https://dl.acm.org/doi/10.1145/3408995  
+[3] Retrofitting Effect Handlers onto OCaml https://dl.acm.org/doi/10.1145/3453483.3454039  
